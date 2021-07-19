@@ -1,5 +1,5 @@
-const icon = document.querySelector('#theme')
-const body = document.querySelector('body')
+const icon = document.querySelector('#theme');
+const body = document.querySelector('body');
 icon.addEventListener('click', function() {
     if (icon.classList.contains('fa-sun')){
       icon.classList.remove('fa-sun')

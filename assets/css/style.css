@@ -1,14 +1,3 @@
-[data-theme= "dark"] {
-  
-    --cards: #000000;
-    --white: #FFF;
-    --bgSite: #181818;
-    --box:#2300a3a9;
-    --title: #FFF;
-    --text: #E5E5E5;
-    
-    --linear: #202020;
-  }
 body{
     margin: 0 auto;
     background-color: var(--bgSite);
@@ -79,6 +68,7 @@ body{
     color: var(--white);
     font-size: 20px;
     font-family: Lato;
+    cursor: pointer;
 }
 .header__img__style{
     width: 500px;
@@ -104,6 +94,7 @@ body{
     background: var(--cards);
 box-shadow: 0px 0px 20px var(--box);
 max-width: 340px;
+cursor: pointer;
 }
 .cards__color{
     width: 340px;
@@ -198,6 +189,7 @@ line-height: 24px;
 color: var(--white);
 background-color: var(--buttonColor);
 margin-bottom: 150px;
+cursor: pointer;
 }
 @media(max-width: 1250px){
     .header__container{

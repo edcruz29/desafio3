@@ -10,7 +10,6 @@
   --title: #2b2b2b;
   --text: #555555;
 }
-
 [data-theme= "dark"] {
   --cards: #000000;
   --white: #FFF;
@@ -21,6 +20,7 @@
   
   --linear: #202020;
 }
+
 
 /*Reset*/
 * {
