@@ -2,12 +2,24 @@
 :root {
   --bgSite: #d7d4ff;
   --buttonColor: #6c63ff;
-
+  --cards:#ffffff;
   --white: #ffffff;
   --white300: #f9f9f9;
+  --box:rgba(0, 0, 0, 0.1);
 
   --title: #2b2b2b;
   --text: #555555;
+}
+
+[data-theme= "dark"] {
+  --cards: #000000;
+  --white: #FFF;
+  --bgSite: #181818;
+  --box:#2300a3a9;
+  --title: #FFF;
+  --text: #E5E5E5;
+  
+  --linear: #202020;
 }
 
 /*Reset*/
